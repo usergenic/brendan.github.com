@@ -20,6 +20,7 @@
 }
 
 .sprite_ninja {
+    position: absolute;
     background-image: url(ninja.gif);
 }
 
