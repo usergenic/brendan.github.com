@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>resume.rb</title>
+        <link rel="stylesheet" media="all" href="docco.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="background"></div>
+            <table cellspacing="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th class="docs"><h1>resume.rb</h1></th>
+                        <th class="code"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="section-1">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-1">#</a>
+                            </div>
+                            <p> &ndash;<em>&ndash; coding: utf-8 &ndash;</em>&ndash;</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre><span class="k">class</span> <span class="nc">Brendan</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-2">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-2">#</a>
+                            </div>
+                            <p> Seek out and join forces with other real, ultimate, agile code ninjas and wiley web
+ wizards to form Web 3.0 Voltron, <em>with monetization plan.</em></p>
+
+<p> Deliver devastatingly elegant Ruby, JavaScript, and XHTML/CSS scripting attacks with
+ lazer-focused intensity.</p>
+
+<p> Generate bleeding-edge dynamic web products to usher in a golden age of total
+ planetary happiness.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>    <span class="kp">attr_accessor</span> <span class="ss">:voltron</span>
+
+    <span class="no">Recognizer</span> <span class="o">=</span> <span class="no">Proc</span><span class="o">.</span><span class="n">new</span> <span class="k">do</span> <span class="o">|</span><span class="n">other</span><span class="o">|</span>
+        <span class="n">has_opinions</span> <span class="o">=</span> <span class="o">!</span><span class="n">other</span><span class="o">.</span><span class="n">opinions</span><span class="o">.</span><span class="n">empty?</span>
+        <span class="n">has_know_how</span> <span class="o">=</span> <span class="no">Knowledge</span><span class="o">.</span><span class="n">all?</span> <span class="k">do</span> <span class="o">|</span><span class="n">concept</span><span class="o">|</span>
+            <span class="n">other</span><span class="o">.</span><span class="n">respond_to?</span><span class="p">(</span><span class="n">concept</span><span class="p">)</span>
+        <span class="k">end</span>
+        <span class="n">know_how</span> <span class="o">&amp;&amp;</span> <span class="n">chops</span>
+    <span class="k">end</span>
+
+    <span class="no">Knowledge</span> <span class="o">=</span> <span class="sx">%w[</span>
+<span class="sx">        eigenclass   scaleability   eventloops</span>
+<span class="sx">    ]</span>
+
+    <span class="k">def</span> <span class="nf">mission_objective</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>
+        <span class="n">env</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="o">&amp;</span><span class="no">Recognizer</span><span class="p">)</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">fellow</span><span class="o">|</span>
+            <span class="n">fellow</span><span class="o">.</span><span class="n">syn</span> <span class="p">{</span><span class="o">|</span><span class="n">ack</span><span class="o">|</span> <span class="nb">self</span><span class="o">.</span><span class="n">voltron</span> <span class="o">+=</span> <span class="n">fellow</span><span class="p">}</span>
+        <span class="k">end</span>
+    <span class="k">end</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-3">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-3">#</a>
+                            </div>
+                            <p> <strong>Weapons of choice</strong></p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>    <span class="no">Features</span><span class="o">.</span><span class="n">scale</span> <span class="o">=</span> <span class="o">[</span><span class="ss">:intermediate</span><span class="p">,</span> <span class="ss">:advanced</span><span class="p">,</span> <span class="ss">:expert</span><span class="p">,</span> <span class="ss">:wizard</span><span class="o">]</span>
+    <span class="no">Features</span><span class="o">.</span><span class="n">register</span> <span class="ss">:priority</span> <span class="o">=&gt;</span> <span class="mi">1</span> <span class="k">do</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-4">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-4">#</a>
+                            </div>
+                            <p> JavaScript for jQuery, JSON, prototypes, first-class functions and being
+ ubiquitous.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Javascript</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:wizard</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">1997</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-5">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-5">#</a>
+                            </div>
+                            <p> Ruby for mixins, method_missing, &amp;to_proc and the eigenclass.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Ruby</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:wizard</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2005</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-6">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-6">#</a>
+                            </div>
+                            <p> Rails for migrations, routes, respond_to {} and the network effect.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Rails</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:expert</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2006</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-7">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-7">#</a>
+                            </div>
+                            <p> Sinatra for when MVC is too rigid and Rails is too heavy.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Sinatra</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:advanced</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2008</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-8">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-8">#</a>
+                            </div>
+                            <p> Rack for middleware and modular web-stacks.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Rack</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:intermediate</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2008</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-9">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-9">#</a>
+                            </div>
+                            <p> RSpec for pushing the TDD envelope towards BDD and for excellent mock/stub
+ frameworks.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:RSpec</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:advanced</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2007</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-10">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-10">#</a>
+                            </div>
+                            <p> Cucumber for making BDD a visible business value and for making a formal
+ specification DSL that&rsquo;s actually easy to read.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Cucumber</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:expert</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2008</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-11">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-11">#</a>
+                            </div>
+                            <p> Git for cheap branches, offline commits, distributed development and of course
+ github!</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Git</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:advanced</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2008</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-12">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-12">#</a>
+                            </div>
+                            <p> CSS for descendant selectors and enabling spritemaps with background-position.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:CSS</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:intermediate</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2000</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-13">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-13">#</a>
+                            </div>
+                            <p> Nginx for the best web-server config format, predictable and performant
+ behavior, and for beautifully low memory footprint.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Nginx</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:intermediate</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2008</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-14">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-14">#</a>
+                            </div>
+                            <p> Mac OS X for Quicksilver, FreeBSD, and the Reality Distortion Field</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:OSX</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:expert</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2005</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-15">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-15">#</a>
+                            </div>
+                            <p> Linux for iptables, keeping text files alive, and for compiling from
+ source. Most familiar with Debian, Ubuntu, and CentOS</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Linux</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:advanced</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">1998</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-16">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-16">#</a>
+                            </div>
+                            <p> Vim for saving my wrists from carpal tunnel, having the best default keybindings
+ and for always being there when I need it.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Vim</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:expert</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">1998</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-17">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-17">#</a>
+                            </div>
+                            <p> Emacs for having a mode for <em>everything</em> and allowing me to keep my Lisp skills
+ sharp.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>        <span class="n">uses</span> <span class="ss">:Emacs</span><span class="p">,</span> <span class="ss">:level</span> <span class="o">=&gt;</span> <span class="ss">:advanced</span><span class="p">,</span> <span class="ss">:since</span> <span class="o">=&gt;</span> <span class="mi">2009</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-18">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-18">#</a>
+                            </div>
+                            <p> HTML5 for making HTML interesting again and for the best DOCTYPE ever.</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-19">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-19">#</a>
+                            </div>
+                            <p> HAML for making XHTML fun to look at like Ruby but formal like Python</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-20">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-20">#</a>
+                            </div>
+                            <p> Subversion for keeping iterations tight
+ MySQL for simplicity, flexibility, (MySQL Proxy (Lua!), and because it still continues to surprise me
+ SQL for those times when the ORM needs more juice
+ Photoshop for gradient-fills, rounded corners, drop-shadows, and glossy reflections
+ Capistrano for the remote scripting equivalent of a sorceror’s apprentice
+ Markdown because it could just as well be plain-text where Textile is the worst of both worlds</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>    <span class="k">end</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-21">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-21">#</a>
+                            </div>
+                            <p> <strong>Backup Super Powers</strong></p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>    <span class="no">Features</span><span class="o">.</span><span class="n">register</span> <span class="ss">:priority</span> <span class="o">=&gt;</span> <span class="mi">2</span> <span class="k">do</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-22">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-22">#</a>
+                            </div>
+                            <p> Apache HTTPD for mod_rewrite, .htaccess, reliability, and a mod_ for pretty much everything (Phusion Passenger FTW)</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-23">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-23">#</a>
+                            </div>
+                            <p> PHP for the <strong>set() and </strong>get() magic methods, stupid-easy deployment (but its so ugly— srsly!)</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-24">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-24">#</a>
+                            </div>
+                            <p> ColdFusion for allowing function Struct(){return arguments}, Ben Forta’s beard, and for being the first to bring RAD to the web</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-25">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-25">#</a>
+                            </div>
+                            <p> ASP for supporting Server-Side JavaScript</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-26">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-26">#</a>
+                            </div>
+                            <p> Visual Basic for partying like its 1995</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-27">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-27">#</a>
+                            </div>
+                            <p> Windows for Cygwin ;P</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-28">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-28">#</a>
+                            </div>
+                            <p> Oracle 10g for recursive PL/SQL</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-29">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-29">#</a>
+                            </div>
+                            <p> SQL Server for being prettier than Oracle</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-30">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-30">#</a>
+                            </div>
+                            <p> CVS for being better than ClearCase</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-31">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-31">#</a>
+                            </div>
+                            <p> ClearCase for being better than Visual SourceSafe</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-32">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-32">#</a>
+                            </div>
+                            <p> Visual SourceSafe for being better than nothing</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-33">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-33">#</a>
+                            </div>
+                            <p> Flash for ActionScript, tweening, and automatic polygonal collision detection</p>
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>    <span class="k">end</span>
+
+    <span class="kp">protected</span></pre></div>
+                        </td>
+                    </tr>
+                    <tr id="section-34">
+                        <td class="docs">
+                            <div class="octowrap">
+                                <a class="octothorpe" href="#section-34">#</a>
+                            </div>
+                            <p> Have to start somewhere.  A Voltron of 1.</p>
+
+                        </td>
+                        <td class="code">
+                            <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">initialize</span>
+        <span class="nb">self</span><span class="o">.</span><span class="n">voltron</span> <span class="o">=</span> <span class="nb">self</span>
+    <span class="k">end</span>
+
+<span class="k">end</span></pre></div>
+                        </td>
+                    </tr>
+                    </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+Brendan Avery Baldwin
+
+(415) 894-0207
+bb@brendanbaldwin.com
+
+Mission Objective
+
+Seek out and join forces with other real, ultimate, agile code ninjas
+and wiley web wizards to form Web 2.1 Voltron, with monetization plan
+
+Deliver devastatingly elegant Ruby, JavaScript, and XHTML/CSS scripting
+attacks with lazer-focused intensity
+
+Generate bleeding-edge dynamic web products to usher in a golden age of
+total planetary happiness
+
+Summary Of Qualifications
+
+13 years of professional software development experience, with 24 years of total programming experience
+Writes code for fun as well as for profit
+Has been doing "AJAX" since Netscape 3 when it meant serializing data in cookies using javascript Image objects to pipe asynchronous requests. (Ask me how!)
+Weapons of Choice
+
+Ruby for mixins, method_missing, &to_proc, and the eigenclass
+Rails for migrations, routes.rb, respond_to, NewRelic RPM, and the network effect
+Rack for out-merbing Merb for fast and simple HTTP services
+RSpec for pushing the TDD envelope towards BDD, and for excellent mock/stub frameworks
+JavaScript for jQuery, Prototype.js, [], {}, JSON, and being ubiquitous
+CSS for descendant selectors and enabling spritemaps with background-position
+Nginx for the best web-server config format, predictable and performant behavior, and for beautifully low memory footprint. Throw in built-in proxy/balancing, SMTP?, and I'm loving being a webdeveloper again.
+XHTML for XML + XSLT, and the DOM
+HAML for making XHTML fun to look at like Ruby but formal like Python
+Mac OS X for Quicksilver, FreeBSD, and the Reality Distortion Fieldâ„¢
+Linux for iptables, keeping text files alive, and for compiling from source. Most familiar with Debian, Ubuntu, and CentOS
+Firefox for Firebug/YSlow
+TextMate for Command+T, and having Bundles for everything
+Vim for saving my wrists from repetitive mouse strain and always being there when I need it
+Git for offline commits, distributed development, and of github!
+Subversion for keeping iterations tight
+MySQL for simplicity, flexibility, (MySQL Proxy (Lua!), and because it still continues to surprise me
+SQL for those times when the ORM needs more juice
+Photoshop for gradient-fills, rounded corners, drop-shadows, and glossy reflections
+Capistrano for the remote scripting equivalent of a sorceror’s apprentice
+Markdown because it could just as well be plain-text where Textile is the worst of both worlds
+Backup Super-Powers
+
+Apache HTTPD for mod_rewrite, .htaccess, reliability, and a mod_ for pretty much everything (Phusion Passenger FTW)
+PHP for the __set() and __get() magic methods, stupid-easy deployment (but its so ugly— srsly!)
+ColdFusion for allowing function Struct(){return arguments}, Ben Forta’s beard, and for being the first to bring RAD to the web
+ASP for supporting Server-Side JavaScript
+Visual Basic for partying like its 1995
+Windows for Cygwin ;P
+Oracle 10g for recursive PL/SQL
+SQL Server for being prettier than Oracle
+CVS for being better than ClearCase
+ClearCase for being better than Visual SourceSafe
+Visual SourceSafe for being better than nothing
+Flash for ActionScript, tweening, and automatic polygonal collision detection
+Pattern Fluency/Techniques
+
+OOP (Object-Oriented Programming)
+BDD (Behavior-Driven Development)
+TDD (Test-Driven Development)
+FBP (Flow-Based Programming)
+MVC (Model-View-Controller)
+AOP (Aspect Oriented Programming)
+Declarative over Imperative Programming
+DRY Programming
+Functional Programming
+Unobtrusive Scripting
+DOM Event-Delgation
+Experience
+
+Software Engineer @ Playdom (http://www.playdom.com)
+
+April 2009 to Present
+Privately Held; ~40 employees; Gaming industry
+Design and development for Playdom.com and inter-game trading and community features. Lots of JavaScript/jQuery and PHP (using phpspec for BDD) and introduced Cucumber+Selenium+Webrat to drive application design and acceptance testing.
+Chief Internet Architect @ Qik (http://qik.com)
+
+May 2008 to April 2009 (11 months)
+Privately Held; ~30 employees; Internet industry
+Driving development efforts and strategy for web applications architecture at Qik.com. Developed and implemented web, application and database service clusters using Nginx, HAProxy, MySQL Proxy/Lua, Memcached, Sphinx and Rails. Customized and deployed Skynet mqueue/map-reduce to process tasks asynchronously. Managing the conversion from single-environment first-gen architecture to distributed SOA, and implementing a fully RESTful API supporting ActiveResource and oAuth. Working with a team of top engineers, designers, and business mavens around the world.
+Lead Technology Developer @ The Point (http://www.thepoint.com)
+
+January 2007 to May 2008 (1 year 5 months)
+Privately Held; ~10 employees; Internet industry
+Architecting and developing a social-networking and action-organization application written from the ground-up in Rails. Lots of work on Rails internals and plugins development. Working with a small agile team of 5 other coders. Continuous integration and testing using RSpec, Selenium, and CruiseControl.rb. ECommerce integration using ActiveMerchant.
+Web Software Engineer @ CashNetUSA (http://www.cashnetusa.com)
+
+July 2006 to January 2007 (7 months)
+Public Company; 51-200 employees; Financial Services industry
+Ruby on Rails developer with special emphasis on Front-end/AJAX/HTML/CSS goodness. It’s my goal to optimize the user experience of our website and backend applications as well as build tools and libraries for the team as a whole.
+Senior Web Developer @ Fitch Ratings (http://www.fitchratings.com)
+
+August 2005 to May 2006 (10 months)
+Privately Held; 1001-5000 employees; Financial Services industry
+Worked on the FitchRatings.com website and internal ColdFusion applications. Lots of work with XML/XSLT, ColdFusion, and some Java. Tons of Javascript and CSS, and did some training/presentations on web-standards, scripting, and library architecture.
+Software Development Consultant @ Imagination Publishing (http://www.imaginepub.com)
+
+2005 to 2006 (1 year)
+Information Technology and Services industry
+Senior Web Consultant @ Citadel Investment Group, L.L.C. (http://www.citadelgroup.com)
+
+April 2004 to July 2005 (1 year 4 months)
+Privately Held; 201-500 employees; Capital Markets industry
+Web Applications Architect/Consultant. Built ColdFusion recruiting and HR applications with SQL Server back-end. Lots of integration with Peoplesoft and there was some PHP work too. I did quite a bit of DHTML in this position and honed my ninja skills in terms of front-end DOM manipulation and AJAXian coding.
+Senior Web Developer @ Deluxe Media Management (http://www.bydeluxe.com)
+
+November 1998 to November 2003 (5 years 1 month)
+Public Company; 51-200 employees; RNK; Motion Pictures and Film industry
+Designed, developed, and maintained several B2B and public/consumer websites aimed at promoting motion picture and television properties. This included creating online storefronts for merchandise, metadata-rich asset-management systems for the studios to manage related materials, and a variety of support systems. This was done using technologies such as PHP, ColdFusion, JSP, ASP, Flash, Javascript, SQL-Server, MySQL, PostgreSQL, Linux, WindowsNT, Apache, and IIS.
+Director of Information Systems @ PC Pros Information Staffing (http://www.pcprosis.com - offline)
+
+September 1996 to November 1999 (3 years 3 months)
+Privately Held; 11-50 employees; Information Services industry
+Designed, developed, and maintained internal applications and public-facing web sites for recruiting operations and client services for a 10+ year old staffing company. Started with client-server Visual Basic and SQL Server, migrating to ASP, and finally ColdFusion for rapid development. Installed and managed a network of 20+ servers and workstations (Windows NT). Managed two IT employees, who performed additional development and network support tasks.
+References furnished on request. Contact me at bb@brendanbaldwin.com. Please note that while the word “enterprise” no longer appears anywhere in this resume, this is entirely intentional. KTHX BYE!
+
